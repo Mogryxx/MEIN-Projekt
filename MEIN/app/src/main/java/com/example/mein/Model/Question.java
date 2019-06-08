@@ -1,4 +1,4 @@
-
+package com.example.mein.Model;
 
 public class Question{
     public String Question;
