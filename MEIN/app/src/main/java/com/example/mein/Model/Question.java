@@ -26,7 +26,7 @@ public class Question {
             if (!correctAnswers.contains(i))
                 return false;
         }
-
+    //all answers were right
         return correct;
     }
 }
