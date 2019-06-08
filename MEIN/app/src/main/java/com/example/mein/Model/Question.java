@@ -19,7 +19,7 @@ public class Question {
         choice4 = c4;
         this.correctAnswers = correctAnswers;
     }
-
+    //checks if the correct answers were selected
     public boolean isCorrectAnswer(int[] ans) {
         boolean correct = true;
         for (int i : ans) {
